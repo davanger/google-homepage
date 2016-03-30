@@ -1,0 +1,152 @@
+body {
+    background-color: (0,0,0);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+#top-bar {
+    position: absolute;
+    top: 25px;
+    width: 980px;
+    font-size: 13px
+}
+
+#top-box {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    position: relative;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+#links {
+    padding-right: 15px;
+    width: 167px;
+    height: 24px;
+}
+
+#david {
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    display: inline;
+    opacity: .85;
+}
+
+#gmail {
+    width: 34px;
+    height: 24px;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 24px;
+    display: inline;
+    opacity: .85;
+}
+
+#images {
+    width: 44px;
+    height: 24px;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 24px;
+    display: inline;
+    opacity: .85;
+}
+
+#apps {
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: .60;
+}
+
+#apps:hover {
+    opacity: 1;
+}
+
+#notifications1 {
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+    opacity: 60%;
+}
+
+#notifications2 {
+    height: 30px;
+    width: 30px;
+}
+
+#notifications3 {
+    background-color: rgba(0, 0, 0, 0.54902);
+    height: 20px;
+    width: 16px;
+    line-height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 5px; 
+    background-image: url(../images/i1_1967ca6a.png);
+    background-position: -194px -21px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#notifications3:hover {
+    background-color: black;
+}
+
+#avatar-outer {
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+}
+
+#avatar-mid {
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/i1_1967ca6a.png);
+    background-position: -194px -21px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#avatar-inner {
+    height: 32px;
+    width: 32px;
+    display: block;
+    /*overflow: hidden;*/
+    background-image: url(../images/photo.png);
+    background-size: 32px 32px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.14902); 
+    position: relative;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+div a {
+    text-decoration: black;
+}
